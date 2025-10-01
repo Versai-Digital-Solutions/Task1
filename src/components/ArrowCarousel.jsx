@@ -49,7 +49,7 @@ const ArrowCarousel = ({ items, useColors = false }) => {
                     onError={(e) => {
                       console.log('Image failed to load, using fallback');
                       e.target.style.display = 'none';
-                      // You can add fallback UI here
+                    
                     }}
                   />
                   <div className="absolute inset-0 bg-black bg-opacity-40 flex items-end">
@@ -69,7 +69,7 @@ const ArrowCarousel = ({ items, useColors = false }) => {
         </div>
       </div>
 
-      {/* Navigation Arrows */}
+    
       <button
         onClick={prevSlide}
         className="absolute left-4 top-1/2 transform -translate-y-1/2 bg-white bg-opacity-80 hover:bg-opacity-100 text-gray-800 w-10 h-10 rounded-full flex items-center justify-center shadow-lg transition-all duration-200 hover:scale-110"

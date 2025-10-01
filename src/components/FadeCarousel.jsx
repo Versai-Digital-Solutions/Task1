@@ -109,7 +109,7 @@ const FadeCarousel = ({ items, useColors = false, autoPlayInterval = 4000 }) => 
         </button>
       </div>
 
-      {/* Thumbnail Navigation */}
+    
       <div className="p-4 bg-gray-50">
         <div className="flex justify-center space-x-3 overflow-x-auto py-2">
           {items.map((item, index) => (

@@ -37,8 +37,6 @@ const carouselData = [
     description: "Built for rugged terrain and exploration"
   }
 ];
-
-// Backup plan - Color versions agar images na load hon
 const colorData = [
   {
     id: 1,
